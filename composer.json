@@ -1,0 +1,20 @@
+{
+    "name": "mmopane/http",
+    "description": "A simple HTTP components",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MMOPANE\\Http\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mmopane"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "mmopane/collection": "^1.0"
+    }
+}
